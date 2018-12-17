@@ -41,15 +41,15 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'pure_pagination',
+    'captcha',
     'users',
-    'course',
-    'operation',
-    'organization',
     'xadmin',
     'crispy_forms',
-    'captcha',
-    'pure_pagination',
     'DjangoUeditor',
+    'operation',
+    'course',
+    'organization',
 ]
 
 MIDDLEWARE = [
@@ -101,7 +101,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'django_test',        #数据库名字
         'USER': 'root',          #账号
-        'PASSWORD': '123456',      #密码
+        'PASSWORD': 'turans',      #密码
         'HOST': '127.0.0.1',    #IP
         'PORT': '3306',                   #端口
     }
