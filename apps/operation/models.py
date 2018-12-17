@@ -9,7 +9,7 @@ from users.models import UserProfile
 
 
 class UserAsk(models.Model):
-    '''用户咨询'''
+    '''用户咨询22222'''
     name = models.CharField('姓名',max_length=20)
     mobile = models.CharField('手机',max_length=11)
     course_name = models.CharField('课程名',max_length=50)
